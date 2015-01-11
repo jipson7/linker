@@ -1,0 +1,112 @@
+#userHeader {
+	color: #C1C1C1;
+	text-align: center;
+	font-size: 2.5em;
+	font-family: cursive;
+	margin-bottom: 40px;
+}
+
+
+
+#userInfo {
+	margin: auto;
+	margin-top: 30px;
+	padding: 20px;
+	background: #F1F1F1;
+	width: 700px;
+	border-radius: 5px;
+	height: 500px;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 100px 0px rgba(0,0,0,0.75);
+}
+
+td {
+	color: grey;
+	font-family: Avenir;
+	font-weight: 100;
+}
+
+td:nth-child(2) {
+	background-color: #C0C0C0;
+	position:relative;
+	left: 20px;
+	color: white;
+	border-radius: 5px;
+}
+td:nth-child(3) {
+	
+	position:relative;
+	left: 20px;
+
+}
+
+.editButton {
+	
+	cursor: pointer;
+	background-color: #C0C0C0;
+	color: white;
+	border-radius: 25px;
+	border: none;
+	text-align: center;
+	font-size: 1em;
+	font-family: cursive;
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+#passwordMessage {
+	color: #A1A1A1;
+	font-family: Avenir;
+	font-weight: 100;
+}
+
+body {
+	margin: 0;
+	background-color: #FAFAFA;
+}
+
+#header {
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	background: rgb(245,246,246);
+	background: -moz-linear-gradient(left,  rgba(245,246,246,1) 0%, rgba(219,220,226,1) 30%, rgba(221,223,227,1) 50%, rgba(221,223,227,1) 70%, rgba(245,246,246,1) 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(245,246,246,1)), color-stop(30%,rgba(219,220,226,1)), color-stop(50%,rgba(221,223,227,1)), color-stop(70%,rgba(221,223,227,1)), color-stop(100%,rgba(245,246,246,1)));
+	background: -webkit-linear-gradient(left,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 30%,rgba(221,223,227,1) 50%,rgba(221,223,227,1) 70%,rgba(245,246,246,1) 100%);
+	background: -o-linear-gradient(left,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 30%,rgba(221,223,227,1) 50%,rgba(221,223,227,1) 70%,rgba(245,246,246,1) 100%);
+	background: -ms-linear-gradient(left,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 30%,rgba(221,223,227,1) 50%,rgba(221,223,227,1) 70%,rgba(245,246,246,1) 100%);
+	background: linear-gradient(to right,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 30%,rgba(221,223,227,1) 50%,rgba(221,223,227,1) 70%,rgba(245,246,246,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=1 );
+}
+
+.title:link, .title:visited {
+	text-decoration: none;
+	color: white;
+	font-size: 1.4em;
+	font-family: cursive;
+	
+}
+
+#footer {
+	color: white;
+	font-weight: 100;
+	font-family: Avenir;
+	background-color: #C0C0C0;
+	border-width: 0;
+	width: 100%;
+	line-height: 0;
+	bottom: 0;
+	position: fixed;
+	overflow: hidden;
+	opacity: 0.5;
+}
+
+#footer ul li{
+	display: table-cell;
+	position: relative;
+	list-style: none;
+	padding-right: 40px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}
